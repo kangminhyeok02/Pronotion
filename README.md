@@ -9,9 +9,8 @@
 
 주제 : ProNotion, 내가 노션을 잘 활용중인지 피드백해주는 AI
 
-팀원 : 정지우,임은채,정태희
-
 방법: 
+
 <img src="https://github.com/user-attachments/assets/5eb795e7-cd32-41ca-a601-945c11bf1da4" alt="image" width="500"/>
 
 

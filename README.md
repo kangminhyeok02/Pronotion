@@ -9,9 +9,7 @@
 
 주제 : ProNotion, 내가 노션을 잘 활용중인지 피드백해주는 AI
 
-방법: 
-
-<img src="https://github.com/user-attachments/assets/028f6801-8ffb-4da3-9f52-7970b0d97ec7" alt="image" width="500"/>
+방법:  <img src="https://github.com/user-attachments/assets/5eb795e7-cd32-41ca-a601-945c11bf1da4" alt="image" width="500"/>
 
 
 ## 🕛개발기간 

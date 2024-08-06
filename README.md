@@ -15,6 +15,6 @@
 
     $ git clone https://github.com/kangminhyeok02/Pronotion.git
     $ pip install -r requirements.txt
-    $ python app.py
+    $ cd result_generation/python app.py
     
 

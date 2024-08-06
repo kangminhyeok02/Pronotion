@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노션 링크 입력</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>노션 링크를 입력하세요</h1>
+    <form id="notionForm" method="POST" action="/input">
+        <input type="text" id="notionLink" name="notion_link" placeholder="노션 링크를 입력하세요" required>
+        <button type="submit">확인</button>
+    </form>
+    <p class="small-note">노션은 꼭 게시한 링크를 입력하세요.</p>
+    <button id="howToPostLink">웹 게시 방법 안내</button>
+    <button id="privacyInfo">개인정보 보호 안내</button>
+
+    <!-- 모달 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

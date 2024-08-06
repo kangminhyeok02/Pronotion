@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컨셉 선택</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>컨셉을 선택하세요</h1>
+    <div class="concept-container">
+        <div class="concept-option" data-concept="harrypotter">
+            <img src="harrypotter_example.jpg" alt="해리포터 컨셉">
+            <p>해리포터</p>
+        </div>
+        <div class="concept-option" data-concept="pixar">
+            <img src="pixar_example.jpg" alt="픽사 컨셉">
+            <p>픽사</p>
+        </div>
+        <div class="concept-option" data-concept="wimpykid">
+            <img src="wimpykid_example.jpg" alt="윔피키드 컨셉">
+            <p>윔피키드</p>
+        </div>
+    </div>
+    <form id="conceptForm">
+        <input type="hidden" id="selectedConcept" name="concept">
+        <div id="genderSelection" class="hidden">
+            <label for="characterGender">원하는 캐릭터의 성별을 체크해주세요</label>
+            <select id="characterGender">
+                <option value="male">남성</option>
+                <option value="female">여성</option>
+            </select>
+        </div>
+        <button type="submit">확인</button>
+    </form>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
